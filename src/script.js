@@ -372,10 +372,6 @@ function animateCounter(el) {
     }
     requestAnimationFrame(tick);
 }
-
-// ============================================
-// Keyboard Support
-// ============================================
 document.addEventListener('keydown', (e) => {
     if (e.key === 'Escape') {
         const links = document.querySelector('.nav-links');
